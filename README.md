@@ -1,13 +1,15 @@
 # 代码说明，本代码采用递归思想广度优先遍历所有解法！
 
-一、关于函数 void path(vector<Card> cards, Card desktop, vector<Card> solution, int num) ：
+## 一、关于函数 void path(vector<Card> cards, Card desktop, vector<Card> solution, int num) 
+
 该函数在test.cpp文件中，使用时分别传入
 1.已有卡牌cards
 2.桌子上的卡牌desktop
 3.存储解决方案的数组solution（直接建一个新的就好了）
 4.还有个记录走了多少次次数的num，初始值应该为 0.
 
-二、关于取结果
+## 二、关于取结果
+
 取结果的话直接从map<int, vector<Card>> DEEP_SOLUTION 中取出来最大的就好了，其实这个还有个问题就是都是九次的最优解会相互覆盖。
 
 
