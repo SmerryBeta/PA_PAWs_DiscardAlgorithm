@@ -1,4 +1,4 @@
-# 代码说明，本代码采用递归思想广度优先遍历所有解法！
+# 代码说明，本代码采用递归思想深度优先遍历最优解法！
 
 ## 一、关于函数 void path(vector<Card> cards, Card desktop, vector<Card> solution, int num) 
 
